@@ -1,0 +1,23 @@
+		 .oooooo..o oooooooooo.   ooooooo  ooooo 
+		d8P'    `Y8 `888'   `Y8b   `8888    d8'  
+		Y88bo.       888      888    Y888..8P    
+		 `"Y8888o.   888      888     `8888'     
+		     `"Y88b  888      888    .8PY888.    
+		oo     .d8P  888     d88'   d8'  `888b   
+		8""88888P'  o888bood8P'   o888o  o88888o
+		----====HAXSUNG DEVELOPERS GROUP====----
+		     http://www.sdx-developers.com/
+
+Release: busybox
+Credit: Busybox team for their code. joeykrim and speedrabbit for original + louziffer
+base config. SDX Developers for being awesome.
+
+Notes
+-----
+
+- YOU MUST CROSS-COMPILE THIS CODE FOR IT TO WORK PROPERLY.
+  Please make note of the toolchain location in the .config files and alter 
+  if needed.
+- DNS will not function without a resolv.conf in /system/etc. Use the sample
+  resolv.conf or make your own.
+- Please see README-orig for the original busybox readme.
